@@ -1,0 +1,95 @@
+body{
+    top: 50%;
+    bottom: 50%;
+    /* background:  rgb(105, 182, 105); */
+    background-color: grey;
+    height: 98.3vh;
+    width: auto;
+    /* background: linear-gradient(white, black); */
+}
+
+form{
+    background-color: rgb(41, 41, 41);
+    display: flex;
+    justify-content: center;
+    /* text-align:center; */
+    /* width: 210px; */
+    /* height: 300px; */
+    /* border: solid black 2px; */
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    /* bring your own prefixes */
+    transform: translate(-50%, -50%);
+    border: transparent;
+    border-radius: 20px;
+    /* box-shadow: 5px 5px ; */
+    padding: 0.2em;
+    
+  
+}
+
+td{
+    /* padding: cover; */
+    width: 50px;
+    height: 50px;
+    margin: 0;
+    padding: 0;
+    border: transparent;
+}
+
+table{
+    border: transparent;
+}
+
+input[type="button"]{
+    display: flex ; 
+    justify-content: center;
+    align-items: center ;
+    height: 50px;
+    width: 50px;
+    background-color: transparent;
+    padding: 1.5em;
+    border-radius: 50%;
+    border: rgb(36, 36, 36) 1px solid;
+    color: white;
+    box-shadow: 1px 1px 1px black;
+}
+
+input[type="button"]:hover{
+    background-color: rgba(1, 1, 1, 0.1);
+}
+
+input[type="text"]{
+    text-align: center;
+    padding: 0;
+    margin: 0;
+    height: 100%;
+    width: 100%;
+    border: transparent 0px;
+    background-color: transparent;
+    border-color: transparent;
+    color: white;
+    border-radius: 25px;
+}
+
+/*
+button.show{
+    position: absolute;
+    top: 35%;
+    left: 47%;
+    transform: translate(-50%, -50%);
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+}
+
+button.hide{
+    position: absolute;
+    top: 35%;
+    left: 52%;
+    transform: translate(-50%, -50%);
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+} */

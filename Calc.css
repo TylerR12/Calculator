@@ -1,0 +1,53 @@
+body{
+    top: 50%;
+    bottom: 50%;
+    background:  black;
+    height: 98.3vh;
+    width: auto;
+    background: linear-gradient(white, black);
+}
+
+form{
+    background-color: grey;
+    display: flex;
+    justify-content: center;
+    text-align:center;
+    width: 210px;
+    /* border: solid black 2px; */
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    /* bring your own prefixes */
+    transform: translate(-50%, -50%);  
+}
+
+input{
+    padding: cover;
+}
+
+input[type="button"]{
+    background-color: transparent;
+    width:100%;
+}
+
+button.show{
+    position: absolute;
+    top: 35%;
+    left: 47%;
+    /* bring your own prefixes */
+    transform: translate(-50%, -50%);
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+}
+
+button.hide{
+    position: absolute;
+    top: 35%;
+    left: 52%;
+    /* bring your own prefixes */
+    transform: translate(-50%, -50%);
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+}
